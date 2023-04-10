@@ -1,0 +1,51 @@
+.bold{
+    font-weight: bold;
+}
+
+body{
+    margin: 20px;
+    font-family: Monospace, Courier New;
+}
+
+.large{
+    font-size:large;
+}
+
+.avatar{
+    width: 150px;
+    transition: width 1s;
+    border-radius: 20%;
+}
+
+.avatar:hover{
+    width: 250px;
+}
+
+.zoom{
+    transition: font-size 0.5s;
+}
+
+.zoom:hover{
+    font-size: large;
+    color: #001824;
+}
+
+.card{ 
+    width: 400px;
+    margin: 0px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    color:#003047;
+    background: lightseagreen;
+    border-bottom: 10px solid lightblue;
+    border-radius: 2%;
+}
+
+.dotBlueBorder{
+    border: 1px dotted lightblue;
+}
+
+.center{
+    text-align:center;
+}
